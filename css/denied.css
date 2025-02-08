@@ -1,0 +1,89 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("denied.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Arvo;
+}
+
+#notfound {
+    position: relative;
+    height: 100vh;
+}
+
+#notfound .erreur {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
+}
+
+.erreur {
+    max-width: 1000px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+}
+  
+.erreur .denied {
+    position: relative;
+    height: 0px;
+    margin: 0px auto 00px;
+    z-index: -1;
+}
+
+.erreur .denied h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 0px 0px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+
+.erreur .denied h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color:whitesmoke;
+    padding: 0px 0px;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.boutton{
+    border-radius: 20px;
+    width: 14%;
+    background-color: #1c3a72;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 430px 50px 50px 320px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boutton:hover{
+    background-color:gray;
+}
+

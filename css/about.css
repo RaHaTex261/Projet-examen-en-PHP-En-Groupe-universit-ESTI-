@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("about.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Arvo;
+    color:black;
+}
+
+.retour{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 60px;
+    
+
+}
+
+
+html {
+    box-sizing: border-box;
+ }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 #aac4e2;
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+  }
+  
+  .container {
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  .container::after, .row::after {
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: burlywood;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: whitesmoke;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: slategrey;
+  }

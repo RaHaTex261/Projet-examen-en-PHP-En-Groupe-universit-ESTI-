@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("event.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Arvo;
+}
+
+.body .details{
+    margin:0;
+    padding:0;
+    background-image: url("event.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Arvo;
+
+}
+
+.retour{
+    width: 170px;
+    height: 50;
+    text-align: center;
+    font-size: 60px;
+    
+
+}
+
+.tableau-style{
+    position: absolute;
+   display: inline-table;
+   position: relative;
+   margin: 50px  50px;
+   border-collapse: collapse;
+   
+}
+
+thead tr{
+    background-color:#1c3a72;
+    color:whitesmoke;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px 120px;
+    color: blanchedalmond;
+}
+
+tbody tr, td, th {
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid black;
+}
+
+tbody tr:last-of-type{
+    border-bottom:1px solid;
+}
+
+.lol {
+    list-style-type: none;
+}

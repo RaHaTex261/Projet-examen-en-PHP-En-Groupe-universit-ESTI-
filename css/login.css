@@ -1,0 +1,132 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("login.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Arvo;
+}
+
+.retour{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 60px;
+    
+
+}
+
+.container{
+    width: 400px;   
+    height: 420px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px black;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color:whitesmoke;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container input[type="text"], .container input[type="password"]{
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: whitesmoke;
+}
+
+.container input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c3a72;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container input[type="submit"]:hover{
+    background:#203141;
+    cursor: pointer;
+}
+
+.container a{
+    font-size: 14px;
+    text-decoration: none;
+    color:whitesmoke;
+    opacity: 0.8;
+}
+
+.container a:hover{
+    color:whitesmoke;
+    opacity: 1;
+}
+
+.bottom-text{
+    
+    color:whitesmoke;
+}
+
+.bottom-text input{
+    background:#203141;
+    width: 10%;
+    float: left;
+        
+}
+
+.bottom-text a {
+    
+    float:right;
+}
+
+.socials{
+    margin-top: 12%;
+    text-align: center;
+}
+.socials a{
+    width:  30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.socials a:nth-child(1){
+    background:#3b5998;
+}
+
+.socials a:nth-child(2){
+    background:#DB4437;
+}
+
+.socials a:nth-child(3){
+    background: #c8232c;
+}
+
+.socials a i{
+    padding: 8px 0;
+}
+
